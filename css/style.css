@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fl {
+    float: left;
+} 
+
+body {
+    background-color: #cecece;
+}
+
+.carousel-title {
+    color: firebrick;
+    padding: 20px;
+}
+
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+    padding: 40px;
+    border: 5px solid dodgerblue;
+    border-radius: 5px;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.paragraph {
+    padding-right: 10px;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.paragraph, img {
+    width: 50%;
+}
+
+hr {
+    height: 2px;
+    color: dodgerblue;
+}
+
+.fas {
+    cursor: pointer;
+    font-size: 30px;
+    color: firebrick;
+}
